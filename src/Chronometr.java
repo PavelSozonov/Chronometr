@@ -8,7 +8,6 @@ import static java.lang.Thread.sleep;
  */
 public class Chronometr {
 
-    private final static long startTime = System.currentTimeMillis();
     private volatile long timeInSec;
     private Object monitor = new Object();
 
